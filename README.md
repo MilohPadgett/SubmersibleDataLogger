@@ -24,3 +24,16 @@ The following names are used to refer to the various components of the device.
 (insert picture of aligning markings and fully installed)
 9. Place the shoulder screw into the hole on the outer enclosure and use a 5/64" drive hex key to thread the screw into the end plug.
 10. Insert the dummy plug OR properly potted 6-pin cable into the 6-pin female bulkhead connector on the datalogger. CAUTION: Only apply pressure to the pins when they are in line with the bulkhead connector, they are easily bent and damaged.
+
+### Retreiving the Data
+1. Before removing the shoulder screw and outer housing, use a rag or paper towel to dry off the datalogger
+2. Use a 5/64" drive hex key to remove the shoulder screw
+3. Pull the outer housing off of the end plug and internal bracket. This will require a lot of force; if it is too difficult to remove by hand then clamping in a vise or using allen keys to pry between the end plug and outer housing may help. 
+4. Use a rag or paper towel to dry off the rest of the datalogger.
+5. Remove the microSD card from the PCB.
+6. Plug into your computer and retrieve the desired files. 
+
+### Storing the Datalogger
+1. Ensure that all components are dry.
+2. Unplug the JST connector on the PCB that connects to the Battery Pack.
+3. Remove all 10 batteries and store in a dry, insulated space. 
