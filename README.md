@@ -9,6 +9,18 @@ The following names are used to refer to the various components of the device.
 
 ## Quick Start Guide
 ### Configuring a Device
+1. Make sure the switch at the bottom of the PCB is pushed towards the middle of the board. 
+2. Place new batteries in the battery pack. Use 10x 3V Lithium AA Batteries.  
+3. Insert SD card in the SD card holder(PCB bottom left). 
+4. Velcro the battery pack near the bottom of the bracket. 
+5. Connect the sensor cable to the 4-pin JST header at the top of the PCB. 
+6. Connect the battery pack to the 2-pin JST header at the bottom of the PCB.
+7. Check jumper locations on the top of the NUCLEO board.
+8. Check cable connections on the bottom of the NUCLEO board.
+9. Connect the ST-Link to the NUCLEO board using female-female Dupont wires.
+10. Connect CN3 TX to PC5 and CN3 RX to PC4.
+11. Connect the ST-Link(CN1 mini-USB port) to a computer using a mini-USB to USB-A cable.
+12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge. 
 
 ### Preparing the Enclosure
 1. Use a rag or paper towel to dry off the outer housing and end plug.
