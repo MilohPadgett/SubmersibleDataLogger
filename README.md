@@ -10,26 +10,34 @@ The following names are used to refer to the various components of the device.
 ## Quick Start Guide
 ### Configuring a Device
 1. Make sure the switch at the bottom of the PCB is pushed towards the middle of the board. 
-2. Place new batteries in the battery pack. Use 10x 3V Lithium AA Batteries.  
-3. Insert SD card in the SD card holder(PCB bottom left). 
-4. Velcro the battery pack near the bottom of the bracket. 
-5. Connect the sensor cable to the 4-pin JST header at the top of the PCB. 
-6. Connect the battery pack to the 2-pin JST header at the bottom of the PCB.
-<img src="[https://github.com/favicon.ico](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/fd66ff42-4c03-42e4-8842-09b519287379)" width="48">
-![GetImage](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/fd66ff42-4c03-42e4-8842-09b519287379)
-8. Check jumper locations on the top of the NUCLEO board.
-![GetImage (1)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/d7b20bbb-f6e2-482a-9373-1e6521d29a1d)
-![GetImage (2)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/85c962e0-a4a5-4f83-8a10-1d1ebcdf18b6)
-9. Check cable connections on the bottom of the NUCLEO board.
-![GetImage (3)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/02d208a3-633c-43ee-9a60-3c697cd5ea6c)
-![GetImage (4)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/275de180-0e03-4d72-ba8a-cb822afceda9)
-10. Connect the ST-Link to the NUCLEO board using female-female Dupont wires.
-![GetImage (5)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/3e069f00-94a0-49cd-b0ba-054c5c2f24b5)
-11. Connect CN3 TX to PC5 and CN3 RX to PC4.
-![GetImage (6)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/0b2118a7-8c04-46c2-b1b7-f28a7499768d)
-12. Connect the ST-Link(CN1 mini-USB port) to a computer using a mini-USB to USB-A cable.
-13. Give the NUCLEO board power by moving the switch on the PCB to the outer edge. 
-![GetImage (7)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853)
+2. Disconnect the battery pack from the 2-pin JST header at the bottom of the PCB and add new batteries. Use 10x 3V Lithium AA Batteries.  
+3. Insert SD card in the SD card holder. 
+4. Secure the battery pack near the bottom of the internal bracket. 
+5. Check that the sensor cable is connected to the 4-pin JST header at the top of the PCB. 
+6. Reconnect the battery pack to the 2-pin JST header.
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/fd66ff42-4c03-42e4-8842-09b519287379" width="400">
+
+7. Check jumper locations on the top of the NUCLEO board.
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/d7b20bbb-f6e2-482a-9373-1e6521d29a1d" width="600">
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/85c962e0-a4a5-4f83-8a10-1d1ebcdf18b6" width="381">
+
+8. Check cable connections on the bottom of the NUCLEO board.
+
+Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/02d208a3-633c-43ee-9a60-3c697cd5ea6c" width="580">
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/2169d017-473a-4404-be40-2d14355eaa00" width="401">
+
+
+9. Connect the ST-Link to the NUCLEO board using female-female Dupont wires.
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/3e069f00-94a0-49cd-b0ba-054c5c2f24b5" width="500">
+
+10. Connect CN3 TX to PC5 and CN3 RX to PC4.
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/0b2118a7-8c04-46c2-b1b7-f28a7499768d" width="500">
+
+11. Connect the ST-Link(CN1 mini-USB port) to a computer using a mini-USB to USB-A cable.
+12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge.
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853" width="500">
+
 
 ### Preparing the Enclosure
 1. Use a rag or paper towel to dry off the outer housing and end plug.
