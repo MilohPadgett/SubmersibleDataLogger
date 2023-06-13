@@ -1,4 +1,4 @@
-# SubmersibleDataLogger
+![GetImage](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/966436b3-df37-4a78-985e-3e48de7eda27)# SubmersibleDataLogger
 This is the documentation for a submersible data logger developed in association with the Cal Poly Center for Coastal Marine Sciences.
 Created by: Miloh Padgett, Joshua Robinson, Yale Yun, Jon Abraham
 
@@ -15,12 +15,20 @@ The following names are used to refer to the various components of the device.
 4. Velcro the battery pack near the bottom of the bracket. 
 5. Connect the sensor cable to the 4-pin JST header at the top of the PCB. 
 6. Connect the battery pack to the 2-pin JST header at the bottom of the PCB.
+![GetImage](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/fd66ff42-4c03-42e4-8842-09b519287379)
 7. Check jumper locations on the top of the NUCLEO board.
+![GetImage (1)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/d7b20bbb-f6e2-482a-9373-1e6521d29a1d)
+![GetImage (2)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/85c962e0-a4a5-4f83-8a10-1d1ebcdf18b6)
 8. Check cable connections on the bottom of the NUCLEO board.
+![GetImage (3)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/02d208a3-633c-43ee-9a60-3c697cd5ea6c)
+![GetImage (4)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/275de180-0e03-4d72-ba8a-cb822afceda9)
 9. Connect the ST-Link to the NUCLEO board using female-female Dupont wires.
+![GetImage (5)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/3e069f00-94a0-49cd-b0ba-054c5c2f24b5)
 10. Connect CN3 TX to PC5 and CN3 RX to PC4.
+![GetImage (6)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/0b2118a7-8c04-46c2-b1b7-f28a7499768d)
 11. Connect the ST-Link(CN1 mini-USB port) to a computer using a mini-USB to USB-A cable.
 12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge. 
+![GetImage (7)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853)
 
 ### Preparing the Enclosure
 1. Use a rag or paper towel to dry off the outer housing and end plug.
