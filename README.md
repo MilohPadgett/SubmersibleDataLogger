@@ -27,7 +27,8 @@ The following names are used to refer to the various components of the device.
 Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board.
 
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/02d208a3-633c-43ee-9a60-3c697cd5ea6c" width="580">
-<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/2169d017-473a-4404-be40-2d14355eaa00" width="401">
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/e9f77fc8-105e-4599-9a9b-3915334ce52b" width="401">
+
 
 
 9. Connect the ST-Link to the NUCLEO board using female-female Dupont wires.
