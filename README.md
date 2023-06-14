@@ -60,7 +60,7 @@ Note: Image on the right shows a top down view of the connections. Cables should
 1. Use a rag or paper towel to dry off the outer housing and end plug.
 2. Wipe any moisture and dirt off of the bored surface of the outer housing and end plug using lint-free wipes.
 3. Check the O-rings for cracking, tears, and excessive twisting. If there is damage, remove both O-rings and replace with new Nitrile ASTM No. 150 O-Rings
-(insert picture of removing and replacing O-rings)
+![O-Ring Removal_Replacement](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/6460451c-9859-448b-9323-10605eade3a3)
 4. Squeeze out a pea-sized amount of Silicone Grease onto your finger and distribute in small dots on the surface of the installed O-rings
 ![Grease](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/e39cbb22-a78f-461a-8302-e6f2dcf8e26e)
 5. Use your finger to evenly spread the grease on the O-rings
