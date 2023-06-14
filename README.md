@@ -52,7 +52,7 @@ Note: Image on the right shows a top down view of the connections. Cables should
 6. Use a lint-free wipe to clean off the O-rings; the first coat allows the grease to pick up any small particulates before inserting the plug into the outer enclosure.
 7. Repeat steps 4 and 5. Do not wipe off the grease the second time.
 8. Insert the bracket and end plug into the outer housing, making sure to align the markings on the end plug and outer enclosure (to align the shoulder screw with the tapped hole). Apply pressure until the larger diameter of the end plug is in contact with the flat face of the outer housing.
-(insert picture of aligning markings and fully installed)
+![Shoulder Screw](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/457de7c9-c903-421a-9464-05824a9ba66d)
 9. Place the shoulder screw into the hole on the outer enclosure and use a 5/64" drive hex key to thread the screw into the end plug.
 10. Insert the dummy plug OR properly potted 6-pin cable into the 6-pin female bulkhead connector on the datalogger. CAUTION: Only apply pressure to the pins when they are in line with the bulkhead connector, they are easily bent and damaged.
 
