@@ -24,7 +24,7 @@ The following names are used to refer to the various components of the device.
 
 8. Check cable connections on the bottom of the NUCLEO board.
 
-Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board
+Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board.
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/02d208a3-633c-43ee-9a60-3c697cd5ea6c" width="580">
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/2169d017-473a-4404-be40-2d14355eaa00" width="401">
 
