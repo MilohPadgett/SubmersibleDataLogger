@@ -37,7 +37,7 @@ Note: Image on the right shows a top down view of the connections. Cables should
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/0b2118a7-8c04-46c2-b1b7-f28a7499768d" width="500">
 
 11. Connect the ST-Link(CN1 mini-USB port) to a computer using a mini-USB to USB-A cable.
-12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge.
+12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge (away from the blue component).
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853" width="500">
 
 #### Software Setup
