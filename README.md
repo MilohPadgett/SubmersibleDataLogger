@@ -62,7 +62,7 @@ Note: Image on the right shows a top down view of the connections. Cables should
 3. Check the O-rings for cracking, tears, and excessive twisting. If there is damage, remove both O-rings and replace with new Nitrile ASTM No. 150 O-Rings
 (insert picture of removing and replacing O-rings)
 4. Squeeze out a pea-sized amount of Silicone Grease onto your finger and distribute in small dots on the surface of the installed O-rings
-(insert picture of amount of grease needed)
+![Grease](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/e39cbb22-a78f-461a-8302-e6f2dcf8e26e)
 5. Use your finger to evenly spread the grease on the O-rings
 6. Use a lint-free wipe to clean off the O-rings; the first coat allows the grease to pick up any small particulates before inserting the plug into the outer enclosure.
 7. Repeat steps 4 and 5. Do not wipe off the grease the second time.
