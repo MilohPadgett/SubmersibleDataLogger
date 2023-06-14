@@ -9,6 +9,7 @@ The following names are used to refer to the various components of the device.
 
 ## Quick Start Guide
 ### Configuring a Device
+#### Hardware Setup
 1. Make sure the switch at the bottom of the PCB is pushed towards the middle of the board. 
 2. Disconnect the battery pack from the 2-pin JST header at the bottom of the PCB and add new batteries. Use 10x 3V Lithium AA Batteries.  
 3. Insert SD card in the SD card holder. 
@@ -38,6 +39,7 @@ Note: Image on the right shows a top down view of the connections. Cables should
 12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge.
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853" width="500">
 
+#### Software Setup
 
 ### Preparing the Enclosure
 1. Use a rag or paper towel to dry off the outer housing and end plug.
