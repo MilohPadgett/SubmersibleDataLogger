@@ -2,6 +2,9 @@
 This is the documentation for a submersible data logger developed in association with the Cal Poly Center for Coastal Marine Sciences.
 Created by: Miloh Padgett, Joshua Robinson, Yale Yun, Jon Abraham
 
+<img width="527" alt="exploded view for pasting" src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/aeaca087-7689-42aa-aedb-910fcd89017d">
+
+
 ## Part Names
 The following names are used to refer to the various components of the device.
 ![Annotated Logger](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/66269046/95221804-980e-4200-a380-22e8f41dcf62)
