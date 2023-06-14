@@ -63,13 +63,14 @@ Note: Image on the right shows a top down view of the connections. Cables should
 ![O-Ring Removal_Replacement](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/6460451c-9859-448b-9323-10605eade3a3)
 4. Squeeze out a pea-sized amount of Silicone Grease onto your finger and distribute in small dots on the surface of the installed O-rings
 ![Grease](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/e39cbb22-a78f-461a-8302-e6f2dcf8e26e)
-5. Use your finger to evenly spread the grease on the O-rings
-6. Use a lint-free wipe to clean off the O-rings; the first coat allows the grease to pick up any small particulates before inserting the plug into the outer enclosure.
-7. Repeat steps 4 and 5. Do not wipe off the grease the second time.
-8. Insert the bracket and end plug into the outer housing, making sure to align the markings on the end plug and outer enclosure (to align the shoulder screw with the tapped hole). Apply pressure until the larger diameter of the end plug is in contact with the flat face of the outer housing.
+![Greasing O-rings](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/9c1f8c1d-1eb3-4243-ae99-df2761c3a2e1)
+6. Use your finger to evenly spread the grease on the O-rings
+7. Use a lint-free wipe to clean off the O-rings; the first coat allows the grease to pick up any small particulates before inserting the plug into the outer enclosure.
+8. Repeat steps 4 and 5. Do not wipe off the grease the second time.
+9. Insert the bracket and end plug into the outer housing, making sure to align the markings on the end plug and outer enclosure (to align the shoulder screw with the tapped hole). Apply pressure until the larger diameter of the end plug is in contact with the flat face of the outer housing.
 ![Shoulder Screw](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/457de7c9-c903-421a-9464-05824a9ba66d)
-9. Place the shoulder screw into the hole on the outer enclosure and use a 5/64" drive hex key to thread the screw into the end plug.
-10. Insert the dummy plug OR properly potted 6-pin cable into the 6-pin female bulkhead connector on the datalogger. CAUTION: Only apply pressure to the pins when they are in line with the bulkhead connector, they are easily bent and damaged.
+10. Place the shoulder screw into the hole on the outer enclosure and use a 5/64" drive hex key to thread the screw into the end plug.
+11. Insert the dummy plug OR properly potted 6-pin cable into the 6-pin female bulkhead connector on the datalogger. CAUTION: Only apply pressure to the pins when they are in line with the bulkhead connector, they are easily bent and damaged.
 
 ### Retreiving the Data
 1. Before removing the shoulder screw and outer housing, use a rag or paper towel to dry off the datalogger
