@@ -2,6 +2,9 @@
 This is the documentation for a submersible data logger developed in association with the Cal Poly Center for Coastal Marine Sciences.
 Created by: Miloh Padgett, Joshua Robinson, Yale Yun, Jon Abraham
 
+<img width="527" alt="exploded view for pasting" src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/aeaca087-7689-42aa-aedb-910fcd89017d">
+
+
 ## Part Names
 The following names are used to refer to the various components of the device.
 ![Annotated Logger](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/66269046/95221804-980e-4200-a380-22e8f41dcf62)
@@ -24,10 +27,10 @@ The following names are used to refer to the various components of the device.
 
 8. Check cable connections on the bottom of the NUCLEO board.
 
-Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board
-<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/02d208a3-633c-43ee-9a60-3c697cd5ea6c" width="580">
-<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/2169d017-473a-4404-be40-2d14355eaa00" width="401">
+Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board.
 
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/02d208a3-633c-43ee-9a60-3c697cd5ea6c" width="580">
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/45d1dfcb-a8fc-45f6-a357-e779802db509" width="401">
 
 9. Connect the ST-Link to the NUCLEO board using female-female Dupont wires.
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/3e069f00-94a0-49cd-b0ba-054c5c2f24b5" width="500">
@@ -36,25 +39,40 @@ Note: Image on the right shows a top down view of the connections. Cables should
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/0b2118a7-8c04-46c2-b1b7-f28a7499768d" width="500">
 
 11. Connect the ST-Link(CN1 mini-USB port) to a computer using a mini-USB to USB-A cable.
-12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge.
+12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge (away from the blue component).
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853" width="500">
 
 #### Software Setup
+1. Plug the STM32 into your PC using the USB cable.
+2. Download the GUI:
+3. Run the GUI executable file
+4. Click the ‘Select COM Port’ dropdown menu and choose the port that the STM32 is plugged into. If no ports appear, try pressing the ‘Refresh COM’ button and ensuring that the STM is properly connected. A light should be on in the top corner of the STM.
+5. Once the data logger is connected, the GUI will notify you and you can select the ECO from the ‘Select Sensor’ dropdown menu.
+6. A new window will appear that will prompt for time between samples, duration of samples, and start delay. You must press the set buttons on the left side to lock in your values. The changes will be reflected on the right. 
+7. You can choose to press the ‘Calculate Lifetime’ button, and an expected lifetime in days will appear in the bottom right corner.
+8. After you are done setting your desired configurations, press the exit button in the left hand corner.
+9. You will be returned to the original page, where you can press deploy to upload your settings to the data logger.
+10. A small red LED on the Blue SD card reader module will turn on. This signified that the logger received the configuration and is setting up. Do NOT continue until this light turns off again. 
+11. Once the Red LED turns off, the data logger will start its autonomous cycle. 
+12. If you have chosen to set a start delay, the logger will enter this delay, otherwise it will start collecting data and writing it to the SD card.
+13. At this point, you may unplug the USB cable, and proceed with closing the data logger.
+
 
 ### Preparing the Enclosure
 1. Use a rag or paper towel to dry off the outer housing and end plug.
-2. Wipe any moisture and dirt off of the bored surface of the outer housing and end plug using lint-free wipes.
+2. Wipe any moisture and dirt off of the bored surface of the outer housing and end plug using lint-free wipes. ![Cleaning Surfaces](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/d7c1d028-3ae6-4cd0-8e5c-78a830bd8ff9)
 3. Check the O-rings for cracking, tears, and excessive twisting. If there is damage, remove both O-rings and replace with new Nitrile ASTM No. 150 O-Rings
-(insert picture of removing and replacing O-rings)
+![O-Ring Removal_Replacement](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/6460451c-9859-448b-9323-10605eade3a3)
 4. Squeeze out a pea-sized amount of Silicone Grease onto your finger and distribute in small dots on the surface of the installed O-rings
-(insert picture of amount of grease needed)
-5. Use your finger to evenly spread the grease on the O-rings
-6. Use a lint-free wipe to clean off the O-rings; the first coat allows the grease to pick up any small particulates before inserting the plug into the outer enclosure.
-7. Repeat steps 4 and 5. Do not wipe off the grease the second time.
-8. Insert the bracket and end plug into the outer housing, making sure to align the markings on the end plug and outer enclosure (to align the shoulder screw with the tapped hole). Apply pressure until the larger diameter of the end plug is in contact with the flat face of the outer housing.
+![Grease](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/e39cbb22-a78f-461a-8302-e6f2dcf8e26e)
+![Greasing O-rings](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/9c1f8c1d-1eb3-4243-ae99-df2761c3a2e1)
+6. Use your finger to evenly spread the grease on the O-rings
+7. Use a lint-free wipe to clean off the O-rings; the first coat allows the grease to pick up any small particulates before inserting the plug into the outer enclosure.
+8. Repeat steps 4 and 5. Do not wipe off the grease the second time.
+9. Insert the bracket and end plug into the outer housing, making sure to align the markings on the end plug and outer enclosure (to align the shoulder screw with the tapped hole). Apply pressure until the larger diameter of the end plug is in contact with the flat face of the outer housing.
 ![Shoulder Screw](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763584/457de7c9-c903-421a-9464-05824a9ba66d)
-9. Place the shoulder screw into the hole on the outer enclosure and use a 5/64" drive hex key to thread the screw into the end plug.
-10. Insert the dummy plug OR properly potted 6-pin cable into the 6-pin female bulkhead connector on the datalogger. CAUTION: Only apply pressure to the pins when they are in line with the bulkhead connector, they are easily bent and damaged.
+10. Place the shoulder screw into the hole on the outer enclosure and use a 5/64" drive hex key to thread the screw into the end plug.
+11. Insert the dummy plug OR properly potted 6-pin cable into the 6-pin female bulkhead connector on the datalogger. CAUTION: Only apply pressure to the pins when they are in line with the bulkhead connector, they are easily bent and damaged.
 
 ### Retreiving the Data
 1. Before removing the shoulder screw and outer housing, use a rag or paper towel to dry off the datalogger
