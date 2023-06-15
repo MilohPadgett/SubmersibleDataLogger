@@ -89,12 +89,19 @@ Note: Image on the right shows a top down view of the connections. Cables should
 3. Remove all 10 batteries and store in a dry, insulated space. 
 
 ### Potential Issues/Future Recommendations
-•	Redesign of the internal bracket for ease of assembly and robustness (i.e. impact resistance to dropping)
+•	Redesign of the internal bracket for ease of assembly and robustness (i.e. impact resistance to dropping).
+
 •	Add software features to give sensors shutdown commands rather than just cutting power. 
-•	Exploration of a flanged elastic seal design for ease of disassembly
-•	Port expansion to connect with more than one sensor per unit 
-•	Wireless data transmission functionality
-•	Long term fully integrated deployment test (1 month in ocean environment)
-•	Program and verify compatibility with other common sensors (Sea-Bird 37 SIP CTD, Aanderaa Oxygen Optode)
-•	Selection of a more robust development board or custom PCB to simplify power optimization (instead of scoring STM and replacing onboard voltage regulator)
+
+•	Exploration of a flanged elastic seal design for ease of disassembly.
+
+•	Port expansion to connect with more than one sensor per unit.
+
+•	Wireless data transmission functionality.
+
+•	Long term fully integrated deployment test (1 month in ocean environment).
+
+•	Program and verify compatibility with other common sensors (Sea-Bird 37 SIP CTD, Aanderaa Oxygen Optode).
+
+•	Selection of a more robust development board or custom PCB to simplify power optimization (instead of scoring STM and replacing onboard voltage regulator).
 
