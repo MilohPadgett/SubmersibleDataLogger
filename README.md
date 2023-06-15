@@ -47,15 +47,16 @@ Note: Image on the right shows a top down view of the connections. Cables should
 2. Download the GUI: <a id="raw-url" href="https://raw.githubusercontent.com/MilohPadgett/SubmersibleDataLogger/master/GUI.exe">Download FILE</a>
 3. Run the GUI executable file
 4. Click the ‘Select COM Port’ dropdown menu and choose the port that the STM32 is plugged into. If no ports appear, try pressing the ‘Refresh COM’ button and ensuring that the STM is properly connected. A light should be on in the top corner of the STM.
-5. Once the data logger is connected, the GUI will notify you and you can select the ECO from the ‘Select Sensor’ dropdown menu.
-6. A new window will appear that will prompt for time between samples, duration of samples, and start delay. You must press the set buttons on the left side to lock in your values. The changes will be reflected on the right. 
-7. You can choose to press the ‘Calculate Lifetime’ button, and an expected lifetime in days will appear in the bottom right corner.
-8. After you are done setting your desired configurations, press the exit button in the left hand corner.
-9. You will be returned to the original page, where you can press deploy to upload your settings to the data logger.
-10. A small red LED on the Blue SD card reader module will turn on. This signified that the logger received the configuration and is setting up. Do NOT continue until this light turns off again. 
-11. Once the Red LED turns off, the data logger will start its autonomous cycle. 
-12. If you have chosen to set a start delay, the logger will enter this delay, otherwise it will start collecting data and writing it to the SD card.
-13. At this point, you may unplug the USB cable, and proceed with closing the data logger.
+5. If the GUI stops responding or crashes, please ensure the wiring is configured properly and the power is turned on.
+6. Once the data logger is connected, the GUI will notify you and you can select the ECO from the ‘Select Sensor’ dropdown menu.
+7. A new window will appear that will prompt for time between samples, duration of samples, and start delay. You must press the set buttons on the left side to lock in your values. The changes will be reflected on the right. 
+8. You can choose to press the ‘Calculate Lifetime’ button, and an expected lifetime in days will appear in the bottom right corner.
+9. After you are done setting your desired configurations, press the exit button in the left hand corner.
+10. You will be returned to the original page, where you can press deploy to upload your settings to the data logger.
+11. A small red LED on the Blue SD card reader module will turn on. This signified that the logger received the configuration and is setting up. Do NOT continue until this light turns off again. 
+12. Once the Red LED turns off, the data logger will start its autonomous cycle. 
+13. If you have chosen to set a start delay, the logger will enter this delay, otherwise it will start collecting data and writing it to the SD card.
+14. At this point, you may unplug the USB cable, and proceed with closing the data logger.
 
 
 ### Preparing the Enclosure
