@@ -93,6 +93,8 @@ Note: Image on the right shows a top down view of the connections. Cables should
 
 •	Add software features to give sensors shutdown commands rather than just cutting power. 
 
+•	Expand GUI to have more configuration capabilities for more sensors. 
+
 •	Exploration of a flanged elastic seal design for ease of disassembly.
 
 •	Port expansion to connect with more than one sensor per unit.
