@@ -10,7 +10,14 @@ Created by: Miloh Padgett, Joshua Robinson, Yale Yun, Jon Abraham
 ## Part Names
 The following names are used to refer to the various components of the device.
 ![Annotated Logger](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/66269046/95221804-980e-4200-a380-22e8f41dcf62)
+
 Reference image for the NUCLEO board.
+
+![NUCLEOreference](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/e33c9bdc-e902-4284-94de-c4abfe10d4e0)
+
+Arrow on the 4 pin and 2 pin Dupont connectors that will be used to orient the cable when connecting the PCB to the NUCLEO board.
+
+![Dupontarrow](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/dc4b309f-4018-4d4e-ad8e-a0d28fd34077)
 
 ## Quick Start Guide
 ### Configuring a Device
@@ -43,7 +50,7 @@ Note: Image on the right shows a top down view of the connections. Cables should
 8c. The cable labeled SD 2 should be attached so that the socket with the arrow connects to the pin that is 1 below the top right most pin. 
 ![IMG_1064](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/5f4a0942-3adf-4ae4-acaf-fdf1271b83dc)
 
-8d. The Cable labeled MCUPWR has a 4 pin connector. Attach the connector so that the socket with the arrow connects to the pin that is 7 above and 1 to the left of the bottom right most pin. 
+8d. The Cable labeled MCU PWR has a 4 pin connector. Attach the connector so that the socket with the arrow connects to the pin that is 7 above and 1 to the left of the bottom right most pin. 
 ![IMG_1063](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/f5287e13-8505-4a75-89d3-5d143aa2a172)
 
 
