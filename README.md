@@ -8,7 +8,7 @@ Created by: Miloh Padgett, Joshua Robinson, Yale Yun, Jon Abraham
 ## Part Names
 The following names are used to refer to the various components of the device.
 ![Annotated Logger](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/66269046/95221804-980e-4200-a380-22e8f41dcf62)
-![Annotated Logger Pt 2 (1)](https://github.com/MilohPadgett/SubmersibleDataLogger/assets/66269046/e4978e3d-48d6-43db-b917-a5ae3ea91683)
+Reference image for the NUCLEO board.
 
 ## Quick Start Guide
 ### Configuring a Device
@@ -19,26 +19,35 @@ The following names are used to refer to the various components of the device.
 4. Secure the battery pack near the bottom of the internal bracket. 
 5. Check that the sensor cable is connected to the 4-pin JST header at the top of the PCB. 
 6. Reconnect the battery pack to the 2-pin JST header.
-<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/fd66ff42-4c03-42e4-8842-09b519287379" width="400">
+<img src="" width="400">
 
-7. Check jumper locations on the top of the NUCLEO board.
+7. Check that jumpers are placed at the locations on the top of the NUCLEO board. The jumpers should be on the highlited pin locations in the left image. The jumpers at the top left and right corner of the board (CN11 & CN12) are spares and can be used to replace the jumpers highlighted with yellow boxes in the image on the right. 
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/d7b20bbb-f6e2-482a-9373-1e6521d29a1d" width="600">
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/85c962e0-a4a5-4f83-8a10-1d1ebcdf18b6" width="381">
 
-8. Check cable connections on the bottom of the NUCLEO board.
+8. Looking at the back side of the NUCLEO board make sure the cables are plug in. If cables are unplugged refer to 8a through 8 if they cables match the image on the left skip to step 9. 
 
-Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board.
+Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board. Arrows in the image on the left match the arrows on the Dupont connector, which are used to make sure the cable is plug in with the right orientation. 
 
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/02d208a3-633c-43ee-9a60-3c697cd5ea6c" width="580">
-<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/45d1dfcb-a8fc-45f6-a357-e779802db509" width="401">
+<img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/45d1dfcb-a8fc-45f6-a357-e779802db509" width="391">
 
-9. Connect the ST-Link to the NUCLEO board using female-female Dupont wires.
+8a. The cable labeled UART has a 4 pin and a 1 pin connector. Look at the back side of the NUCLEO board while keeping the same orientation of the top and bottom edges as in the reference image above. Attacth the 4 pin connector so that the socket with the arrow connects to the pins on the left that is 9 up from the bottom left most pin. Connect the 1 pin connector to the pin that is 3 up and 1 to the right of the bottom left most pin. 
+
+8b. The cable labeled SD 4+1 has a 4 pin and a 1 pin connctor. With the same orientation as before, attach the 4 pin connector so that the socket with the arrow connects to the pin that is 1 below and 1 to the right of the top left most pin. Connect the 1 pin connector to the pin that is 5 below and 1 to the right of the top left most pin. 
+
+8c. The cable labeled SD 2 should be attached so that the socket with the arrow connects to the pin that is 1 below the top right most pin. 
+
+8d. The Cable labeled MCUPWR has a 4 pin connector. Attach the connector so that the socket with the arrow connects to the pin that is 7 above and 1 to the left of the bottom right most pin. 
+
+
+9. Connect CN4 to CN7 using the diagram below. This connects the ST-Link to the Microcontroller, which allows the user to communicate to the microcontroller with their computer.
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/3e069f00-94a0-49cd-b0ba-054c5c2f24b5" width="500">
 
-10. Connect CN3 TX to PC5 and CN3 RX to PC4.
+10. Connect CN3 TX to the pin third from the top on the outter edge of CN10 (CN10 pin 33) and CN3 RX to thrid pin from the bottom on the outter edge of CN10 (CN10 pin 21).
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/0b2118a7-8c04-46c2-b1b7-f28a7499768d" width="500">
 
-11. Connect the ST-Link(CN1 mini-USB port) to a computer using a right angle mini-USB to USB-A cable.
+11. Connect the NUCLEO board (CN1 mini-USB port) to a computer using a right angle mini-USB to USB-A cable.
 12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge (away from the blue component).
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853" width="500">
 
