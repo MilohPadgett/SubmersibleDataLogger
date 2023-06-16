@@ -38,12 +38,12 @@ Note: Image on the right shows a top down view of the connections. Cables should
 10. Connect CN3 TX to PC5 and CN3 RX to PC4.
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/0b2118a7-8c04-46c2-b1b7-f28a7499768d" width="500">
 
-11. Connect the ST-Link(CN1 mini-USB port) to a computer using a mini-USB to USB-A cable.
+11. Connect the ST-Link(CN1 mini-USB port) to a computer using a right angle mini-USB to USB-A cable.
 12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge (away from the blue component).
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853" width="500">
 
 #### Software Setup
-1. Plug the STM32 into your PC using the USB cable.
+1. Ensure the ST-link is connected, and the board is powered on.
 2. Download the GUI: <a id="raw-url" href="https://raw.githubusercontent.com/MilohPadgett/SubmersibleDataLogger/master/GUI.exe">Download FILE</a>
 3. Run the GUI executable file
 4. Click the ‘Select COM Port’ dropdown menu and choose the port that the STM32 is plugged into. If no ports appear, try pressing the ‘Refresh COM’ button and ensuring that the STM is properly connected. A light should be on in the top corner of the STM.
@@ -56,7 +56,7 @@ Note: Image on the right shows a top down view of the connections. Cables should
 11. A small red LED on the Blue SD card reader module will turn on. This signified that the logger received the configuration and is setting up. Do NOT continue until this light turns off again. 
 12. Once the Red LED turns off, the data logger will start its autonomous cycle. 
 13. If you have chosen to set a start delay, the logger will enter this delay, otherwise it will start collecting data and writing it to the SD card.
-14. At this point, you may unplug the USB cable, and proceed with closing the data logger.
+14. At this point, you may unplug the USB cable, unplug the ST-link connecter cables, and proceed with closing the data logger.
 
 
 ### Preparing the Enclosure
