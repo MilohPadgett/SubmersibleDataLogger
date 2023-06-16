@@ -23,7 +23,7 @@ Reference image for the NUCLEO board.
 6. Reconnect the battery pack to the 2-pin JST header.
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/97e0ac89-2c3f-4c96-9450-5a9353c0e688" width="400">
 
-7. Check that jumpers are placed at the locations on the top of the NUCLEO board. The jumpers should be on the highlited pin locations in the left image. The jumpers at the top left and right corner of the board (CN11 & CN12) are spares and can be used to replace the jumpers highlighted with yellow boxes in the image on the right. 
+7. Check that jumpers are placed at the locations on the front side of the NUCLEO board. The jumpers should be on the highlited pin locations in the left image. The jumpers at the top left and right corner of the board (CN11 & CN12) are spares and can be used to replace the jumpers highlighted with yellow boxes in the image on the right. 
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/d7b20bbb-f6e2-482a-9373-1e6521d29a1d" width="600">
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/85c962e0-a4a5-4f83-8a10-1d1ebcdf18b6" width="381">
 
