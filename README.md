@@ -22,11 +22,11 @@ Arrow on the 4 pin and 2 pin Dupont connectors that will be used to orient the c
 ## Quick Start Guide
 ### Configuring a Device
 #### Hardware Setup
-1. Make sure the switch at the bottom of the PCB is pushed towards the middle of the board. 
+1. Make sure the switch at the bottom of the PCB is pushed towards the middle of the board (OFF position). 
 2. Disconnect the battery pack from the 2-pin JST header at the bottom of the PCB and add new batteries. Use 10x 3V Lithium AA Batteries.  
-3. Insert SD card in the SD card holder. 
-4. Secure the battery pack near the bottom of the internal bracket. 
-5. Check that the sensor cable is connected to the 4-pin JST header at the top of the PCB. 
+3. Insert SD card in the SD card holder on the PCB. 
+4. Secure the battery pack near the bottom of the internal bracket using velcro straps. 
+5. Check that the cable from the bulkhead connector is connected to the 4-pin JST header at the top of the PCB. 
 6. Reconnect the battery pack to the 2-pin JST header.
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/97e0ac89-2c3f-4c96-9450-5a9353c0e688" width="400">
 
@@ -34,7 +34,7 @@ Arrow on the 4 pin and 2 pin Dupont connectors that will be used to orient the c
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/d7b20bbb-f6e2-482a-9373-1e6521d29a1d" width="600">
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/85c962e0-a4a5-4f83-8a10-1d1ebcdf18b6" width="381">
 
-8. Looking at the back side of the NUCLEO board make sure the cables are plug in and match the image on the left. If cables are unplugged refer to 8a through 8d. 
+8. Looking at the back side of the NUCLEO board, make sure the cables are plug in and match the image on the left. If cables are unplugged refer to 8a through 8d. 
 
 Note: Image on the right shows a top down view of the connections. Cables should be attached to the bottom of the board. Arrows in the image on the left match the arrows on the Dupont connector, which are used to make sure the cable is plug in with the right orientation. 
 
@@ -63,7 +63,7 @@ Note: Image on the right shows a top down view of the connections. Cables should
 
 
 11. Connect the NUCLEO board (CN1 mini-USB port) to a computer using a right angle mini-USB to USB-A cable.
-12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge (away from the blue component).
+12. Give the NUCLEO board power by moving the switch on the PCB to the outer edge (away from the blue component, ON position).
 <img src="https://github.com/MilohPadgett/SubmersibleDataLogger/assets/135763514/7dc14263-69ff-46ab-ace1-7c017d92c853" width="500">
 
 #### Software Setup
